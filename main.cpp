@@ -9,9 +9,10 @@ int main()
     cout << "number: ";
     cin >> number;
 
-    if (number <= 100000)
+    if (number <= 100000 || number >= 999999)
     {
         cout << "INVALID" << endl;
+        exit(0);
     }
 
     a = number % 10;
