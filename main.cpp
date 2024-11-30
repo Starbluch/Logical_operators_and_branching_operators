@@ -9,7 +9,6 @@ void main()
     if (distance_A_B <= 300){} else{exit(0);}
     cout << "distance B-C: ";
     cin >> distance_B_C;
-    if (distance_B_C <= 300){} else{exit(0);}
     cout << "weight: ";
     cin >> weight;
     
